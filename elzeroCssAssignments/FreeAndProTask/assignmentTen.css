@@ -1,0 +1,227 @@
+/* div {
+    display: inline-block;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #eee;
+    box-shadow: -4px -5px 1px 3px red, 4px 5px 3px blue;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 100px;
+    counter-increment: amer-counter;
+    position: relative;
+}
+
+div::after {
+    content: counter(amer-counter);
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: -50%;
+    left: -30%;
+} */
+
+
+/* 
+.mohamed {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    background-color: rgb(207, 191, 191);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 50px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+} */
+
+
+/* .parent {
+    background-color: greenyellow;
+    width: 550px;
+}
+
+.second-parent {
+    display: inline-block;
+    background-color: #eee;
+    width: 40%;
+    position: relative;
+    height: 200px;
+}
+
+.second-parent .child-one {
+    text-align: center;
+    border-radius: 10px;
+    width: 80%;
+    padding: 10px;
+    display: inline-block;
+    background-color: hsl(202, 81%, 33%);
+    color: white;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: calc((100% - 80%)/3);
+}
+
+.second-parent .child-two {
+    background-color: rgb(190, 178, 178);
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin-top: calc( (100% - 100px)/3);
+    margin-left: calc( (100% - 100px)/2);
+    line-height: 100px;
+    color: black;
+} */
+
+
+/* * {
+    box-sizing: border-box;
+}
+
+.parent {
+    position: relative;
+    width: 550px;
+    background-color: royalblue;
+}
+
+.amer {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    text-align: center;
+}
+
+.basic {
+    background-color: blue;
+    margin: 10px;
+}
+
+.free {
+    background-color: grey;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.mohamed::after {
+    content: "ksjkl";
+    background-color: green;
+    width: 5px;
+    height: 100%;
+    position: absolute;
+}
+
+.mohamed {
+    text-align: center;
+    display: inline-block;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.pro {
+    margin: 10px;
+    background-color: red;
+}
+
+.thirty {
+    background-color: grey;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.parent span {
+    width: 10px;
+    height: 100%;
+    background-color: green;
+} */
+
+.amer-shadow {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    box-shadow: 1px 2px 15px -9px black;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 61px;
+    border-bottom-left-radius: 43px;
+    border-color: black;
+    border-style: inset;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* 
+.amer-container {
+    width: 600px;
+    background-color: blue;
+} */
+
+.amer-box {
+    width: 250px;
+    background-color: #eee;
+    height: 200px;
+    padding: 10px;
+    float: left;
+}
+
+.amer-box .basic {
+    text-align: center;
+    background-color: rgb(47, 178, 253);
+    color: white;
+    height: 50;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.amer-box .free {
+    text-align: center;
+    background-color: white;
+    color: black;
+    height: 103px;
+    width: 112px;
+    position: relative;
+    left: calc(( 200px - 100px) /2);
+    line-height: 100px;
+    border-radius: 50%;
+}
+
+.amer-span {
+    float: left;
+    width: 5px;
+    height: 200px;
+    background-color: rgb(47, 178, 253);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.amer-span::after {
+    content: "or";
+    position: relative;
+    top: 50%;
+    left: -5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(47, 178, 253);
+    color: white;
+    padding: 2px;
+}

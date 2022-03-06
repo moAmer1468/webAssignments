@@ -1,0 +1,30 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: capitalize;
+}
+
+p {
+    display: inline;
+    text-transform: capitalize;
+}
+
+.amer-bold {
+    font-weight: bold;
+    padding-right: 40px;
+    margin-right: 40px;
+}
+
+.amer-italic {
+    font-style: italic;
+    padding-right: 40px;
+}
+
+.amer-padding {
+    /* padding-right: 100px; */
+    margin-left: 50px;
+    /* background-color: blue; */
+}

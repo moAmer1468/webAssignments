@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            display: inline-block;
+            width: 200px;
+            background-color: transparent;
+        }
+        
+        input {
+            border: 1px solid blue;
+            border-color: blue;
+        }
+        
+        input[title='amer-submit'] {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: inherit auto;
+            background-color: red;
+            padding: inherit;
+            color: white;
+        }
+        
+        form {
+            width: 100%;
+            border: 2px solid black;
+            margin: 2px;
+            padding: 3px;
+            background-color: rgb(197, 197, 197);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- so here we need to make some forms uaAmer -->
+    <!-- <form action="game.py" method="post" style="border: 2px solid black; margin: 2px; padding: 10px;background-color: rgb(224, 204, 204);">
+        <div>
+            <label for="first-input">Enter your name</label>
+            <input type="text" required placeholder="Enter your name">
+            <span style="color: red;">*</span>
+            <hr>
+        </div>
+        <div>
+            <label for="second-input">Enter your email</label>
+            <input type="email" required placeholder="enter your email">
+            <span style="color:green">*</span>
+            <hr>
+        </div>
+        <div>
+            <label for="third-input">Enter your password</label>
+            <input type="password" required placeholder="enter your password">
+            <span style="color: red;">*</span>
+            <hr>
+        </div>
+        <div>
+            <label for="fourth-input">Confirm password</label>
+            <input type="password" required placeholder="Confirm your password">
+            <span style="color:red">*</span>
+            <hr>
+        </div>
+        <input title="amer-submit" type="submit" value="Send Data">
+        <input type="range" min="10" max="20" step="2">
+        <input type="number" value="3" required name="22">
+        <label for="007">Disabled</label>
+        <input type="text" readonly disabled value="MohamedAmer" name="007">
+        <input placeholder="enterSomeTextHere" name="amerText" value="OutOfhere" type="text" minlength="10" maxlength="20">
+        <br>
+        <div>
+            <div>
+                <label for="os">mac</label>
+                <input type="radio" name="os" checked>
+            </div>
+            <div><label for="os">windows</label>
+                <input type="radio" name="os" checked>
+            </div>
+            <div>
+                <label for="os">linux</label>
+                <input type="radio" name="os" checked>
+            </div>
+        </div>
+        <div>
+            <label for="mo">Amer</label>
+            <input id="mo" type="checkbox">
+        </div>
+    </form>
+    <div>
+        <label for="amer-selcet">Choose Book</label>
+        <select name="amer-select" id="33" style="color: green; border: 2px solide black;background-color: yellowgreen;">
+            <option value="none1" selected>Print</option>
+            <option value="none2">out</option>
+            <option value="none3">Inside</option>
+            <option value="none5">outside</option>
+            <option value="none4">printside</option>
+        </select>
+        <select name="amer-not-select" id="found">
+            <optgroup label="Stories">
+                <option value="print1">print1</option>
+                <option value="print2">print2</option>
+                <option value="print3">print3</option>
+            </optgroup>
+            <optgroup label="Books">
+                <option value="print4" selected>print4</option>
+                <option value="print5">print5</option>
+                <option value="print6">print6</option>
+            </optgroup>
+        </select>
+    </div> -->
+    <!-- So this is the Assignment uaamer -->
+    <form action="test.py" method="post">
+        <div>
+            <label for="username">Username</label>
+            <br>
+            <input type="text" required placeholder="enter your username">
+            <span style="color: red;">*</span>
+        </div>
+        <div>
+            <label for="password">password</label>
+            <br>
+            <input type="password" required placeholder="Enter your password">
+            <span style="color: red;">*</span>
+        </div>
+        <div>
+            <label for="mobile">mobile</label>
+            <br>
+            <input placeholder="enter your phone Number" type="tel" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            <span style="color: red;">*</span>
+            <small>Format: 123-456-7890</small>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <br>
+            <input placeholder="Enter your email" type="email" required>
+            <span style="color: red;">*</span>
+        </div>
+        <div>
+            <label for="subject">subject</label>
+            <br>
+            <textarea name="subject" id="" cols="40" rows="10" placeholder="print this message">type some thing about yourself</textarea>
+            <span style="color: red;">*</span>
+        </div>
+        <div>
+            <input type="number" value="1468" hidden>
+        </div>
+        <div>
+            <label for="Empty form">Empty form</label>
+            <br>
+            <input type="reset" name="Empty form">
+        </div>
+        <div>
+            <label for="send data">send data</label>
+            <br>
+            <input type="submit" name="send data">
+        </div>
+        <div>
+            <!-- so you can search here uaAmer -->
+            <input list="programming" id="mohamed-list">
+            <datalist id="programming">
+                <option value="sk;ldf">html</option>
+                <option value="sk;ldf">css</option>
+                <option value="sk;ldf">java</option>
+                <option value="sk;ldf">javascript</option>
+            </datalist>
+        </div>
+    </form>
+</body>
+
+</html>

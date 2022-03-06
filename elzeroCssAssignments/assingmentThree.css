@@ -1,0 +1,53 @@
+/* div {
+    background-color: #eee;
+    border-width: 5px;
+    outline: 5px;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.parent {
+    width: 100%;
+}
+
+.shape-one {
+    border: 5px solid red;
+    outline: 5px solid black;
+}
+
+.shape-two {
+    outline: black 5px solid;
+    border: 5px solid blue;
+}
+
+.shape-three {
+    outline: 5px solid black;
+    border: 5px dashed;
+    border-left-color: green;
+    border-right-color: yellow;
+    border-top-color: red;
+    border-bottom-color: blue;
+} */
+
+div {
+    background-color: #eee;
+    margin: 20px;
+}
+
+
+/* simple like this uaAmer so we need more practise */
+
+.amer-border {
+    border-left: 1px solid red;
+    padding-left: 5px;
+    font-size: 10px;
+}
+
+.one {
+    border-left-color: violet;
+}
+
+.two {
+    border-left-color: teal;
+}

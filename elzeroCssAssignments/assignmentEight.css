@@ -1,0 +1,149 @@
+/* .green {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: green;
+    z-index: 2;
+    top: 20px;
+    left: 20px;
+}
+
+.blue {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: blue;
+    z-index: 1;
+    top: -10px;
+}
+
+.red {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: red;
+    z-index: 3;
+    top: 30px;
+    left: 30px;
+}
+
+.black {
+    z-index: -1;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: black;
+} */
+
+
+/* 
+div {
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+    background-color: #eee;
+    border: 2px solid blue;
+    padding: 10px;
+    text-align: center;
+    border-left-color: blue;
+    border-right-color: blue;
+    border-top-color: red;
+    border-bottom-color: red;
+}
+
+.top-left {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: rgb(93, 93, 172);
+    padding: 5px;
+    border-right: 2px solid red;
+}
+
+.top-right {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: rgb(84, 84, 182);
+    padding: 5px;
+    border-left: 2px solid red;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    background-color: rgb(95, 95, 199);
+    padding: 5px;
+    border-left: 2px solid red;
+}
+
+.bottom-right {
+    padding: 5px;
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    background-color: rgb(81, 81, 194);
+    border-right: 2px solid red;
+}
+
+.top-left,
+.top-right,
+.bottom-right,
+.bottom-left {
+    color: white;
+} */
+
+ul li {
+    list-style-type: none;
+    margin: 10px;
+    background-color: #eee;
+    padding: 10px;
+}
+
+ol li {
+    list-style-type: decimal;
+    initial-value: 11;
+    margin: 2xp;
+    background-color: white;
+}
+
+.mohamed-order li {
+    list-style-type: lower-greek;
+}
+
+.mohamed-second li {
+    list-style-type: circle;
+    background-color: white;
+}
+
+
+/* This si the table uaAmer */
+
+table {
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid teal;
+}
+
+td {
+    text-align: center;
+    background-color: #eee;
+}
+
+table thead td {
+    font-weight: bold;
+    color: white;
+    background-color: grey;
+    text-align: center;
+}
+
+.amer-inline {
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    padding: 2px;
+    display: inline-block;
+    background-color: red;
+}

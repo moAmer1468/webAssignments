@@ -1,0 +1,80 @@
+.parent {
+    background-color: #eee;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.parent:hover {
+    top: 0;
+    left: 20px;
+    transition-duration: 2s;
+    padding-bottom: 20px;
+    transition-property: width;
+    transition-timing-function: ease-in;
+    transition-delay: .5s;
+}
+
+.child {
+    margin: 10px;
+    background-color: rgb(129, 116, 116);
+    text-align: center;
+    position: relative;
+    margin-top: inherit;
+}
+
+.amer-div {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border: 1px solid blue;
+    font-size: 80px;
+}
+
+.amer-div:hover {
+    width: 400px;
+    font-size: 20px;
+    background-color: #ddd;
+    color: black;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function: linear;
+    text-align: center;
+    visibility: hidden;
+}
+
+span {
+    font-size: 12px;
+    color: green;
+    visibility: hidden;
+}
+
+.amer-div:hover span {
+    color: black;
+    visibility: visible;
+    text-align: center;
+    font-size: 80px;
+    background-color: #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+:root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+}
+
+.amer-border {
+    border-color: var(--manColor, black);
+    border-style: solid;
+    border-width: 2px;
+    color: var(--mainColr, red);
+    padding: var(--mainPadding);
+    margin: 2px;
+}

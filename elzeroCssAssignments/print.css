@@ -1,0 +1,5 @@
+.parent>div {
+    background-color: blue;
+    font-size: 50px;
+    color: red;
+}

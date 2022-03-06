@@ -1,0 +1,106 @@
+    /* background-color: rgb(138, 43, 226); */
+    /* background-color: rgba(255, 200, 222, 0.5); */
+    /* background-color: rgb(200 200 244 / 50%); */
+    /* div {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.shapeOne {
+    color: white;
+    background-color: rgb(122, 47, 192);
+}
+
+.shapeTwo {
+    color: white;
+    background-color: rgb(122 47 192 / 50%);
+}
+
+.shapeThree {
+    color: white;
+    background-color: rgb(122 47 192 / .1);
+} */
+    /*     
+    div {
+        font-size: 20px;
+        color: white;
+        width: 400px;
+        height: 400px;
+        background-image: url("assignmentTwoCss.png");
+    }
+    
+    .shape-one {
+        background-repeat: repeat;
+    }
+    
+    .shape-two {
+        background-repeat: repeat-y;
+    }
+    
+    .shape-three {
+        background-repeat: repeat-x;
+    }
+    
+    .shape-four {
+        background-repeat: repeat;
+    } */
+    /* div {
+        font-size: 20px;
+        color: white;
+        margin: 10px;
+        background-color: #eee;
+        width: 400px;
+        height: 400px;
+        background-image: url("assignmentTwoCss.png");
+    }
+    
+    .shape-one {
+        background-repeat: no-repeat;
+    }
+    
+    .shape-two {
+        background-repeat: repeat-y;
+    }
+    
+    .shape-three {
+        background-repeat: repeat-x;
+        background-position: bottom center;
+    }
+    
+    .shape-four {
+        background-repeat: repeat;
+    } */
+    
+    div {
+        font-size: 20px;
+        color: white;
+        margin: 10px;
+        background-color: #eee;
+        width: 400px;
+        height: 400px;
+        background-image: url("assignmentTwoCss.png");
+    }
+    
+    .shape-one {
+        background-size: 80%;
+        background-repeat: no-repeat;
+    }
+    
+    .shape-two {
+        background-size: 80%;
+        background-position: right;
+        background-repeat: repeat-y;
+    }
+    
+    .shape-three {
+        background-repeat: repeat-x;
+        background-size: 80%;
+        background-position: center bottom;
+    }
+    
+    .shape-four {
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }

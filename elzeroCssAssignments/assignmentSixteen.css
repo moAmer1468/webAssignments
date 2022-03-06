@@ -1,0 +1,330 @@
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .oval {
+        background-color: red;
+        width: 200px;
+        height: 100px;
+        border-radius: 100px / 50px;
+        text-align: center;
+    }
+    
+    .triangle {
+        width: 0px;
+        height: 0px;
+        border-left: 50px solid transparent;
+        border-top: 50px solid transparent;
+        border-bottom: 50px solid transparent;
+        border-left: 50px solid red;
+    }
+    
+    .triangle-top-left {
+        width: 0px;
+        height: 0px;
+        border-top: 100px solid red;
+        border-right: 100px solid blue;
+    }
+    
+    .amer {
+        width: 0px;
+        height: 0px;
+        border-bottom: 100px solid red;
+        border-right: 100px solid transparent;
+    }
+    
+    .amer-arrow {
+        width: 0px;
+        height: 0px;
+        border-right: 10px solid green;
+        border-top: 20px solid transparent;
+        transform: rotate(10deg);
+        position: relative;
+    }
+    
+    .amer-arrow::after {
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        border: 0 solid transparent;
+        border-radius: 20px 0 0 0;
+        border-top: 3px solid red;
+        top: -12px;
+        left: -9px;
+        transform: rotate(45deg);
+    }
+    
+    .zoid {
+        width: 100px;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+    }
+    
+    .star {
+        position: relative;
+        width: 0px;
+        height: 0px;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 50px solid transparent;
+        border-top: 50px solid red;
+    }
+    
+    .star::after {
+        position: absolute;
+        content: '';
+        height: 0;
+        width: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 50px solid red;
+        top: -70px;
+        left: -50px;
+    }
+    
+    h2 {
+        color: white;
+        position: relative;
+        padding: 10px;
+        margin: 20px auto;
+        width: fit-content;
+        background-color: orange;
+    }
+    
+    h2::before {
+        content: '';
+        position: absolute;
+        background-color: orange;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        transform: skew(10deg, 10deg);
+        transform-origin: 50% 50%;
+    }
+    
+    h2::after {
+        content: '';
+        position: absolute;
+        background-color: orange;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        transform: skew(-10deg, -10deg);
+        transform-origin: 50% 50%;
+    }
+    
+    h1 {
+        margin-top: 50px;
+        position: relative;
+        left: 50%;
+        width: 150px;
+        transform: translate(-50%);
+        background-color: rgb(8, 75, 95);
+        text-align: center;
+        color: white;
+    }
+    
+    h1::before {
+        content: '';
+        position: absolute;
+        height: 110%;
+        border-right: 20px solid white;
+        border-left: 20px solid rgb(8, 75, 95);
+        transform: skew( 27deg, 1deg);
+        left: -28px;
+        top: -3px;
+    }
+    
+    .diamond {
+        width: 200px;
+        height: 200px;
+        color: white;
+        padding-left: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: grey;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        border-bottom: 2px solid black;
+    }
+    
+    .diamond::before {
+        position: absolute;
+        content: "";
+        width: 70%;
+        height: 70%;
+        top: -63%;
+        left: 0%;
+        transform: rotate(47deg) translate(67px, 20px);
+        background-color: black;
+        border-bottom: 5px solid white;
+        border-right: 5px solid white;
+    }
+    /* .amer-card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: grey;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+}
+ */
+    /* .amer-card::after {
+    content: '';
+    position: absolute;
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 10s;
+} */
+    /* Making The cardFlipping card revision uaAmer */
+    /* * {
+        box-sizing: border-box;
+    }
+    
+    .container {
+        width: 200px;
+        margin: 10px auto;
+        perspective: 300px;
+    }
+    
+    .box {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: transform 2s;
+    }
+    
+    .box:hover {
+        transform: rotatex(-180deg) translate(-100px);
+    }
+    
+    .box .face {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 30px;
+        backface-visibility: hidden;
+    }
+    
+    .box .front {
+        background-color: green;
+    }
+    
+    .box .back {
+        background-color: blue;
+        transform: rotatex(-180deg);
+    } */
+    /* This is the test we need to make a simple revisions */
+    /* .amer-container {
+        margin: 10px;
+        perspective: 200px;
+    }
+    
+    .amer-box {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        font-size: 20px;
+        transition: transform 5s;
+        transform-style: preserve-3d;
+    }
+    
+    .amer-box:hover {
+        transform: rotateY(180deg);
+    }
+    
+    .amer-box .amer-front {
+        background-color: blue;
+        backface-visibility: hidden;
+    }
+    
+    .amer-box .amer-back {
+        background-color: green;
+        z-index: -1;
+        transform: rotateY(-180deg);
+    }
+    
+    .amer-box .amer-face {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    
+    * {
+        box-sizing: border-box;
+    } */
+    /* This is the next test uaAmer */
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    .container {
+        width: 200px;
+        margin: 10px;
+        perspective: 300px;
+    }
+    
+    .box {
+        width: 200px;
+        height: 200px;
+        font-size: 30px;
+        left: 80px;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: transform 5s;
+    }
+    
+    .box:hover {
+        transform: rotateY(180deg) translate(20px, 50px);
+    }
+    
+    .box .face {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 200px;
+        color: white;
+    }
+    
+    .box .front {
+        background-color: blue;
+        transform: rotateY(180deg);
+        backface-visibility: hidden;
+    }
+    
+    .box .back {
+        background-color: green;
+        z-index: -1;
+    }

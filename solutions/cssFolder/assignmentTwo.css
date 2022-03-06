@@ -1,0 +1,28 @@
+.amer-center {
+    text-align: center;
+}
+
+.amer-left {
+    text-align: left;
+}
+
+.amer-right {
+    text-align: right;
+}
+
+.amer-arial {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+button {
+    text-transform: capitalize;
+    color: white;
+    background-color: green;
+}
+
+.amer-center {
+    margin: auto;
+    padding: auto;
+}

@@ -1,0 +1,46 @@
+/* so here you can use multiple shadows uaAmer This is good */
+
+
+/* p {
+    color: blue;
+    font-size: 20px;
+    text-shadow: 2px 2px 0px red, 4px 3px 0px black;
+    border-color: blue;
+} */
+
+div {
+    width: 400px;
+    background-color: #eee;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+a {
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: teal;
+    text-align: center;
+}
+
+.amer-center {
+    padding-left: 50%;
+    width: 100%;
+    background-color: #eee;
+}
+
+.one {
+    text-transform: uppercase;
+}
+
+.two {
+    text-transform: capitalize;
+}
+
+.three {
+    text-transform: none;
+}

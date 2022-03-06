@@ -1,0 +1,311 @@
+/* .grid {
+    display: grid;
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 25% 75%;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+}
+
+.grid div {
+    align-content: center;
+    justify-content: center;
+    width: 200px;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    display: grid;
+    margin: 10px;
+} */
+
+
+/*
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.layout {
+    background-color: #eee;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: repeat(8, auto);
+}
+
+.layout header {
+    padding: 20px;
+    background-color: pink;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.layout section {
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 8;
+}
+
+.layout aside {
+    padding: 20px;
+    grid-row: 2 / 8;
+    background-color: yellowgreen;
+}
+
+.layout footer {
+    padding: 20px;
+    background-color: tomato;
+    grid-column: 1 / 4;
+}
+
+.layout footer,
+.layout section,
+.layout aside,
+.layout header {
+    color: white;
+    font-size: 30px;
+} */
+
+
+/*
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 5% 45% 45% 5%;
+    grid-template-rows: repeat(8, auto);
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    gap: 10px 10px;
+}
+
+.grid div {
+    margin: 10px;
+    font-size: 40px;
+    color: white;
+    background-color: grey;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid .large {
+    display: grid;
+    grid-row: 1 / 8;
+} */
+
+
+/* This is the assignmnet Four 444444444 */
+
+
+/*
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(8, auto);
+    gap: 10px 10px;
+}
+
+.grid div {
+    background-color: rgb(26, 130, 228);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid .eight {
+    order: -1;
+    grid-column: 1 / 8;
+}
+
+.grid .one {
+    order: 100;
+    grid-column: 1 / 8;
+    grid-row: 8;
+}
+
+.grid .two {
+    grid-column: 1 / 6;
+}
+
+.grid .three {
+    grid-column: 6 / 8;
+}
+
+.grid .four {
+    grid-column: 1 / 4;
+}
+
+.grid .five {
+    grid-column: 4 / 8;
+    grid-row: 3 / 6;
+}
+
+.grid .six,
+.grid .seven {
+    grid-column: 1 / 4;
+} */
+
+
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: grid;
+    align-content: space-around;
+    gap: 10px 10px;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+}
+
+.grid div {
+    background-color: rgb(228, 13, 181);
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+} */
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.parent-grid {
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(4, auto);
+    gap: 10px 10px;
+    height: 100vh;
+    width: 100vw;
+    padding: 20px;
+}
+
+.parent-grid div {
+    background-color: white;
+    border-bottom: 2px solid red;
+    padding: 10px;
+}
+
+.parent-grid .one {
+    grid-column: 1 / 3;
+    padding: 10px;
+}
+
+.parent-grid .three {
+    grid-row: 1 / 4;
+    grid-column: 4 / 4;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.parent-grid .four {
+    grid-row: 2 / 4;
+    grid-column: 1 / 2;
+    padding: 10px;
+}
+
+.parent-grid .five {
+    grid-row: 2 / 3;
+    grid-column: 2 / 4;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.parent-grid .six {
+    grid-row: 3 / 4;
+    grid-column: 2 / 4;
+    padding: 10px;
+}
+
+.parent-grid .eight {
+    background-color: black;
+    color: white;
+}
+
+.name {
+    font-weight: bold;
+    color: black;
+}
+
+.job {
+    font-weight: 100;
+    opacity: 0.3;
+    margin-top: 2px;
+    word-break: break-all;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.light {
+    font-weight: 100;
+}
+
+.parent-grid .three p,
+.parent-grid .eight p,
+.parent-grid .five p {
+    color: white;
+}

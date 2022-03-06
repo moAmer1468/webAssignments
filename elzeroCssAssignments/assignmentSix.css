@@ -1,0 +1,45 @@
+    /* div {
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid red;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div p {
+    border: inherit;
+    margin: inherit;
+    padding: inherit;
+    background-color: #eee;
+    font-weight: 100;
+}
+
+.first {
+    border-color: red;
+}
+
+.second {
+    border-color: teal;
+}
+
+.amer-center {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: royalblue;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 30;
+    font-style: italic;
+} */
+    /*  so we need you to focus rem = html = 16*numner
+em = parent equal number*widht and height of the parent
+*/
+    
+    html {
+        font-size: 20px
+    }
+    
+    p {
+        font-size: 2.5rem;
+        font-size: 2rem;
+        font-size: 1.5rem;
+    }

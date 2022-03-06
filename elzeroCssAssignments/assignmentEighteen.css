@@ -1,0 +1,123 @@
+/* .amer-one {
+    font-size: 20px;
+}
+
+.amer-two {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.amer-one.amer-two {
+    color: red;
+}
+
+input[type='submit'] {
+    color: red;
+}
+
+input[title *='ame'] {
+    background-color: green;
+}
+
+input[title ^='a'] {
+    background-color: blue;
+}
+
+input~div,
+input~p {
+    color: darkgreen;
+}
+
+p:only-of-type {
+    color: brown;
+}
+
+p:first-of-type {
+    color: #6f6f6f;
+}
+
+p:last-of-type {
+    color: cornflowerblue;
+}
+
+p:not(.special) {
+    color: tomato;
+}
+
+p:nth-child(3) {
+    background-color: teal;
+}
+
+span:nth-last-child(3) {
+    background-color: turquoise;
+}
+
+div:nth-last-of-type(1) {
+    background-color: violet;
+}
+
+div>span {
+    color: yellowgreen;
+}
+
+input+label {
+    color: yellow;
+    background-color: tomato;
+}
+
+input:required+span {
+    color: red;
+}
+
+input:disabled+span {
+    background-color: red;
+    color: black
+}
+
+input[type='password']+span::before {
+    content: '*';
+    color: green;
+}
+
+input:focus {
+    border: 2px solid yellow;
+    background: #eee;
+} */
+
+
+/* div.main.red {
+    color: red;
+} */
+
+
+/* .parent div:nth-of-type(2) {
+    color: red;
+} */
+
+
+/* .parent>div:only-child {
+    color: red;
+    font-size: 30px;
+} */
+
+
+/* div[title]:not(.no-need):not(.parent>div) {
+    color: red;
+} */
+
+
+/* div[title]:last-child:not(.no-need):not(.no-need>div) {
+    color: red;
+    font-size: 30px;
+} */
+
+
+/*
+div div:nth-last-of-type(2):not(.no-need>div) {
+    color: red;
+    font-weight: bold;
+} */
+
+h3+p,
+div:not(:first-child):not(:last-child) {
+    color: red;
+}

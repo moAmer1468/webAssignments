@@ -1,0 +1,24 @@
+span {
+    color: red;
+}
+
+.child {
+    color: blue;
+}
+
+p,
+.title {
+    color: green;
+}
+
+p {
+    background-color: brown;
+    color: black;
+    padding: 10px;
+    min-width: 20px;
+    max-width: 400px;
+    min-height: 10px;
+    max-height: 30px;
+    width: fit-content;
+    overflow: hidden;
+}
